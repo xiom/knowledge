@@ -4,7 +4,7 @@ Git is a version control system for computer files, it was created by Linus Torv
 
 # What makes git good?
 
-His (Linus) design criteria specified four things: 
+His design criteria specified four things: 
 
 * Patching should take no more than three seconds
 * Concurrent Versions System (CVS) as an example of what not to do; if in doubt, make the exact opposite decision
