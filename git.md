@@ -2,6 +2,7 @@
 
 Git is a version control system for computer files (usually codebases), it was created by Linus Torvalds in 2005 for development of the linux kernel.
 
+
 ## What makes git good?
 
 His design criteria specified four things: 
@@ -13,6 +14,7 @@ His design criteria specified four things:
 s 
 Its current maintainer, since 2005 is Junio Hamano software engineer at Google. Who Linus says has 'taste' and does a great job at maintaining and developing git.
 
+
 ## Why did Linus create git?
 
 Linus Torvalds work on the Linux Kernel had shifted from writing code to being the top level maintainer of the kernel meaning
@@ -20,8 +22,6 @@ that most of his work consists of merging code from many different sources. This
 also a distributed workflow was important for linux. By 2005 the linux kernel had become a big open-source project and it's
 distributed organisational structure reflects that. 
 
-https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows
-https://en.wikipedia.org/wiki/Distributed_version_control
 
 ## What are the differences between Distributed version control versus centralized
 
@@ -35,7 +35,9 @@ Most work can be done fast and offline
 You can work with multiple repositories and groups from within the same project, and many other (distributed) workflows
 
 https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows
-https://en.wikipedia.org/wiki/Distributed_version_control
+
+https://en.wikipedia.org/wiki/Distributed_version_controlsudo
+
 
 # How to set up and configure git
 
@@ -52,16 +54,17 @@ For me this would be:
 
 
 ```
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name "J.M. Filius"
+$ git config --global user.email joscha@xiom.nl
 ```
-configuration has three levels
+Configuration has three levels lower levels override the higher, from top to bottom they are:
 
-1. --system : system level
-2. --global : user level
-3. --local  : repository level
+1. System `--system`
+2. User `--global`
+3. Local `--local`
 
-Local being the default when working from within a git repository
+Local being the default when working from within a git repository.
+
 
 
 
