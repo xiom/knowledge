@@ -39,6 +39,9 @@ https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows
 https://en.wikipedia.org/wiki/Distributed_version_controlsudo
 
 
+# How does git work
+
+
 # How to set up and configure git
 
 ## Intalling git
@@ -64,6 +67,15 @@ Configuration has three levels lower levels override the higher, from top to bot
 3. Local `--local`
 
 Local being the default when working from within a git repository.
+
+## Help and additional support
+
+* Manual `git help <verb>`, concise `git <verb> -h`
+* https://git-scm.com/book
+* irc.freenode.net #git #github
+
+
+
 
 
 
