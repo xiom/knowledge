@@ -1,9 +1,9 @@
-# What is git?
+# What is Git?
 
 Git is a version control system for computer files (usually codebases), it was created by Linus Torvalds in 2005 for development of the linux kernel.
 
 
-## What makes git good?
+## What makes Git good?
 
 His design criteria specified four things: 
 
@@ -12,10 +12,10 @@ His design criteria specified four things:
 * Support a distributed, BitKeeper-like workflow
 * Include very strong safeguards against corruption, either accidental or malicious
 s 
-Its current maintainer, since 2005 is Junio Hamano software engineer at Google. Who Linus says has 'taste' and does a great job at maintaining and developing git.
+Its current maintainer, since 2005 is Junio Hamano software engineer at Google. Who Linus says has 'taste' and does a great job at maintaining and developing Git.
 
 
-## Why did Linus create git?
+## Why did Linus create Git?
 
 Linus Torvalds work on the Linux Kernel had shifted from writing code to being the top level maintainer of the kernel meaning
 that most of his work consists of merging code from many different sources. This means merging has to be fast and painless,
@@ -39,12 +39,17 @@ https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows
 https://en.wikipedia.org/wiki/Distributed_version_controlsudo
 
 
-# How does git work
+# How does Git work?
 
+* snapshots vs diff
+* integrity (checksums)
+* cumulative 
+* local
+* three data states, modified, commited staged
 
-# How to set up and configure git
+# How to set up and configure Git?
 
-## Intalling git
+## Intalling Git
 
 I'd stick with something like
 
@@ -52,7 +57,7 @@ I'd stick with something like
 $ sudo apt install git-all
 ```
 
-## Configuring git
+## Configuring Git
 For me this would be:
 
 
@@ -66,7 +71,7 @@ Configuration has three levels lower levels override the higher, from top to bot
 2. User `--global`
 3. Local `--local`
 
-Local being the default when working from within a git repository.
+Local being the default when working from within a Git repository.
 
 ## Help and additional support
 
@@ -74,7 +79,7 @@ Local being the default when working from within a git repository.
 * https://git-scm.com/book
 * irc.freenode.net #git #github
 
-
+# Working with Git repositories
 
 
 
