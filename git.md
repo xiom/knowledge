@@ -81,8 +81,47 @@ Local being the default when working from within a Git repository.
 
 # Working with Git repositories
 
+## Creating a repository
 
+1. 'init' git repository in the directory
+2. 'add' files in the codebase to track to the index
+3. 'add' the licence to the index
+4. 'commit' files in index to repository including a commit message
 
+```
+$ git init
+$ git add *.py
+$ git add LICENCE
+$ git commit -m 'init of project'
+```
+Or clone a repository
+
+$ git clone https://github.com/xiom/some_repository
+
+Files in the working directory can be either 
+* tracked
+  * unmodified
+  * moddified
+  * staged
+* or untracked
+
+```
+Untracked          Unmodified          Modified          Staged
+  |                     |                  |                |
+  + Add the file ------------------------------------------->
+  |                     + Edit the file --->                |
+  |                     |                  + Stage the file >
+  <-----Remove the file +                  |                |
+  |                     <---------------------------- Commit+
+```
+
+## Checking the status of your files
+
+`$ git status
+
+1. Modification of tracked files
+2. Branch and branch vs origin
+3. List untracked files in working directory
 
 
 
